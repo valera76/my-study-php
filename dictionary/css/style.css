@@ -1,0 +1,40 @@
+h2.send1 {
+  font-family: bookman old style;
+  font-size: 24px;
+  color: green;
+  padding-left: 15px;
+}
+
+form.send2 {
+  font-family: bookman old style;
+  font-bold: bold;
+  font-size: 18px;
+  color: orange;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+form.send2 input {
+  width: 200px;
+  height: 25px;
+  display: line;
+  font-size: 14px;
+  font-family: times new roman;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+form.send2 textarea {
+  width: 200px;
+  height: 150px;
+  font-family: bookman old style;
+  font-bold: bold;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+
+
+
