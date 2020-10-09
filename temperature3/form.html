@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>
+<body>
+    <h1 class="temp">Калькулятор температуры</h1>
+    <br>
+    <table class="temp">
+      <tr>
+        <th>Конвертация шкалы по Фаренгейту в градусы по Цельсию и обратно
+по Цельсию в градусы по Фаренгейту</th>        
+      </tr>
+    </table>
+     <br>
+    <br>
+
+<form class="temp" name="fromFahrenheit" method="POST">
+    <div>
+        <label>Input °F</label>
+        <input type="text" name="Fahrenheit" placeholder="Fahrenheit">
+
+    <button type="submit">Convertation</button>
+
+    <input type="text" value="<?php echo isset($Cel) ? round($Cel, 2) : ''; ?>">
+    <label>°C</label>
+    </div>
+    </form>
+
+<form class="temp" name="fromCelsius" method="POST">
+    <div>
+        <label>Input °C</label>
+        <input type="text" name="Celsius" placeholder="Celsius">
+
+    <button type="submit">Convertation</button>
+
+    <input type="text" value="<?php echo isset($Fah) ? round($Fah, 2) : ''; ?>">
+    <label>°F</label>
+    </div>
+    </form>
+
+</body>
+</html>
+
+
+   
+

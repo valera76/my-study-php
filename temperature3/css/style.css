@@ -1,0 +1,51 @@
+h1.temp {
+  font-family: bookman old style;
+  font-size: 32px;
+  color: green;
+  padding-left: 120px
+}
+
+table.temp {
+  width: 800px;
+  height: 80px;
+  background-color: silver;
+  color: green;
+  font-family: bookman old style;
+  font-weight: bold;
+  font-size: 22px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+form.temp label {
+  font-family: bookman old style;
+  font-bold: bold;
+  font-size: 26px;
+  color: red;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+form.temp input {
+  width: 180px;
+  height: 35px;
+  display: line;
+  font-size: 18px;
+  font-family: times new roman;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+form.temp button {
+  width: 130px;
+  height: 35px;
+  background-color: silver;
+  color: green;
+  font-weight: bold;
+  font-family: calibri;
+  font-size: 15px;
+}
+
+
+
