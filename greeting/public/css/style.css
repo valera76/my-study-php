@@ -1,0 +1,20 @@
+h1 {
+    font-family: tahoma;
+    font-size: 34px;
+    color: green;
+    padding-left: 250px;
+}
+
+h2 {
+    font-family: bookman old style;
+    font-size: 24px;
+    color: blue;
+    padding-left: 50px;  
+}
+
+h3 {
+    width: 50px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
